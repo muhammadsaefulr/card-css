@@ -1,0 +1,134 @@
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/outfit/v4/QGYyz_MVcBeNP4NjuGObqx1XmO1I4W61C4E.ttf) format('truetype');
+}
+body {
+  background-color: hsl(217, 54%, 11%);
+  overflow: hidden;
+}
+.wrapper-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.wrapper-card .card-content {
+  width: 280px;
+  height: 450px;
+  border-radius: 20px;
+  background-color: hsl(216, 50%, 16%);
+  box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25) ;
+}
+
+.wrapper-card img.image-product {
+  width: 180px;
+  margin-left: 50px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.wrapper-text {
+  display: block;
+  justify-content: space-evenly;
+  margin-left: 10px;
+
+}
+
+.card-content a {
+  text-decoration: none;
+}
+
+p.product-name{
+  font-family: 'Outfit', sans-serif;
+  color: white;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+p.product-description{
+  font-family: 'Outfit', sans-serif;
+  font-size: 14px;
+  color: white;
+  font-weight: 200;
+}
+
+.wrapper-product-info {
+  display: flex;
+  justify-content: space-around;
+  margin: -30px;
+}
+
+.wrapper-item{
+  display: inline;
+  align-items: center;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+img.ethreum-icon {
+  width: 10px;
+  margin:-6vh;
+  margin-left: -1.22em;
+}
+
+img.clock-icon{
+  width: 18px;
+  margin: -6vh;
+  margin-left: -1.55em;
+}
+
+p.sell-value {
+  color: #00a2ffee;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+p.time-value {
+  color: white;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+hr.small-hr {
+  border: 0.66px solid #505658ee;
+  width: 15em;
+  margin-top: 45px;
+}
+
+img.avatar-image {
+  width: 30px;
+}
+
+.bottom-card {
+  margin-top: 1em;
+  margin-left: 12px;
+}
+
+p.avatar-text{
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: -30px;
+  margin-left: 35px;
+  color: rgba(111, 111, 180, 0.925);
+}
+
+p.text-avatar-two {
+  margin-left: 8em;
+  margin-top: -32px;
+  font-size: 14px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  color: white;
+}
+
+.attribution{
+  color: white;
+  margin-left: 15em;
+}
